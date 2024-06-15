@@ -1,0 +1,24 @@
+{
+  "name": "gurucool-assignment-1",
+  "version": "1.0.0",
+  "description": "Node.js backend system with user authentication, request queueing, worker processes, concurrency management, scalability, robustness, and logging/monitoring.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "worker": "node worker.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.4",
+    "bcrypt": "^5.1.1",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "nodemon": "^3.1.3",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0",
+    "prom-client": "^15.1.2",
+    "uuid": "^10.0.0"
+  }
+}
